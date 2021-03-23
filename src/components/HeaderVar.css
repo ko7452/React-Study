@@ -1,0 +1,19 @@
+.HeaderVar {
+  margin: auto;
+  /* 폭 */
+  width: auto;
+  /* 높이 */
+  height: auto;
+  /* 상단 메뉴바 크기 조절 */
+  padding: 30px;
+  /* 반응형 boarder-box */
+  box-sizing: border-box;
+  /* 배경색 : 베이지 */
+  background-color: beige;
+  /* text 가운데 정렬 */
+  text-align: center;
+  /* 글꼴 스타일 */
+  font-family: cursive;
+
+  font-size: 3em;
+}
