@@ -1,0 +1,21 @@
+.Header {
+  margin-left: auto;
+  margin-right: auto;
+  width: auto;
+  height: auto;
+  background-color: bisque;
+  padding: 35px;
+  box-sizing: border-box;
+  /* 폰트 설정 */
+  text-align: center;
+  font-size: 1.3em;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  /* 메뉴 글자 간격 조정 */
+  word-spacing: 20px;
+}
+a {
+  /* 메뉴바 간격 조정 */
+  padding: 8px 16px;
+  /* 링크 밑줄 지우기 */
+  text-decoration: none;
+}
