@@ -6,7 +6,8 @@ import React from 'react';
 import { Redirect } from 'react-router';
 
 import Home from '../pages/Home';
-import About from '../pages/About';
+import PostList from '../pages/PostList';
+import CreatePage from '../pages/CreatePage';
 import Contact from '../pages/Contact';
 
 // routes '배열'을 정의한다
@@ -15,15 +16,19 @@ const routes = [
     // localhost3000번에서 아무것도 입력이 안된 초기 페이지는 home으로 설정
     path: '/',
     exact: true,
-    component: () => <Redirect to="/home" />,
+    component: () => <Redirect to="/PostList" />,
   },
   {
-    path: '/home',
+    path: 'home',
     component: () => <Home />,
   },
   {
-    path: '/about',
-    component: () => <About />,
+    path: '/PostList',
+    component: () => <PostList />,
+  },
+  {
+    path: '/CreatePage',
+    component: () => <CreatePage />,
   },
   {
     path: '/contact',

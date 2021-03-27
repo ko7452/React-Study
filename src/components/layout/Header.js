@@ -7,16 +7,13 @@ function Header() {
   return (
     <div className="Header">
       <a>
-        <Link to="/">BLOG</Link>
+        <Link to="/PostList">게시글</Link>
       </a>
       <a>
-        <Link to="/home">Home</Link>
+        <Link to="/CreatePage">글작성</Link>
       </a>
       <a>
-        <Link to="/about">About</Link>
-      </a>
-      <a>
-        <Link to="/contact">Contact</Link>
+        <Link to="/contact">Delete</Link>
       </a>
     </div>
   );
