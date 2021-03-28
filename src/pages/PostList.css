@@ -1,0 +1,12 @@
+.PostList {
+  background-color: beige;
+}
+.text-container {
+  background-color: white;
+  margin: 0 auto;
+  width: 80%;
+  border: 1px solid #333;
+  padding: 10px 0 30px 0;
+  border-radius: 5px;
+  margin-bottom: 50px;
+}
