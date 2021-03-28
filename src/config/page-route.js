@@ -8,7 +8,7 @@ import { Redirect } from 'react-router';
 import Home from '../pages/Home';
 import PostList from '../pages/PostList';
 import CreatePage from '../pages/CreatePage';
-import Contact from '../pages/Contact';
+import YoutubeRecastly from '../pages/YoutubeRecastly';
 
 // routes '배열'을 정의한다
 const routes = [
@@ -19,10 +19,6 @@ const routes = [
     component: () => <Redirect to="/PostList" />,
   },
   {
-    path: 'home',
-    component: () => <Home />,
-  },
-  {
     path: '/PostList',
     component: () => <PostList />,
   },
@@ -31,8 +27,8 @@ const routes = [
     component: () => <CreatePage />,
   },
   {
-    path: '/contact',
-    component: () => <Contact />,
+    path: '/YoutubeRecastly',
+    component: () => <YoutubeRecastly />,
   },
 ];
 

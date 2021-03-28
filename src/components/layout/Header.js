@@ -13,7 +13,7 @@ function Header() {
         <Link to="/CreatePage">글작성</Link>
       </a>
       <a>
-        <Link to="/contact">Delete</Link>
+        <Link to="/YoutubeRecastly">Youtube API</Link>
       </a>
     </div>
   );
