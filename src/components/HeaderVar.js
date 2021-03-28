@@ -6,7 +6,7 @@ import './HeaderVar.css';
 function HeaderVar() {
   return (
     <div className="HeaderVar">
-      <Link to="/home">K-LOG</Link>
+      <Link to="/">K-LOG</Link>
     </div>
   );
 }

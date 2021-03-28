@@ -11,7 +11,7 @@
   font-size: 1.3em;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   /* 메뉴 글자 간격 조정 */
-  word-spacing: 20px;
+  /* word-spacing: 20px; */
 }
 a {
   /* 메뉴바 간격 조정 */
