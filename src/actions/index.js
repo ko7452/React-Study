@@ -1,8 +1,16 @@
 // action
-export const SET_VIEW_CONTENTS = 'SET_VIEW_CONTENTS';
+export const BOARD_SAVE = 'BOARD_SAVE';
+export const BLOG_CONTENTS = 'BLOG_CONTENTS';
 // action-type
-export const viewContents = () => {
+export const board_save = boardList => {
   return {
-    type: SET_VIEW_CONTENTS,
+    type: BOARD_SAVE,
+    boardList,
+  };
+};
+export const blog_contents = blogContents => {
+  return {
+    type: BLOG_CONTENTS,
+    blogContents,
   };
 };
