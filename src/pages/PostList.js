@@ -1,12 +1,31 @@
 import React, { useState } from 'react';
 import './PostList.css';
 
+import { useSelector } from 'react-redux';
+
+//mapToProps 기능
 function PostList() {
+  const test = useSelector(state => {
+    console.log(state);
+    return state;
+  });
+
+  console.log(test);
+
   return (
     <div className="PostList">
       <div className="text-container">
-        <h2>제목</h2>
-        <div>내용</div>
+        <div>
+          {test.BoardListReducer.map(x => {
+            console.log('x:', x);
+            return (
+              <div>
+                <h2>제목: {x.title}</h2>
+                <div dangerouslySetInnerHTML={{ __html: x.content }}></div>
+              </div>
+            );
+          })}
+        </div>
       </div>
     </div>
   );
