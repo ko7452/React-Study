@@ -11,7 +11,6 @@ const BlogContentsReducer = (state = initialState, action) => {
       return Object.assign({}, state, {
         blogContents: action.blogContents,
       });
-
     default:
       return state;
   }
